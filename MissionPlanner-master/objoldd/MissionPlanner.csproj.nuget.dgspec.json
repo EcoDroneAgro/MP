@@ -1,0 +1,3547 @@
+{
+  "format": 1,
+  "restore": {
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\MissionPlanner.csproj": {}
+  },
+  "projects": {
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\alglibnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\alglibnet.csproj",
+        "projectName": "alglibnet",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\alglibnet.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AltitudeAngelWings\\AltitudeAngelWings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AltitudeAngelWings\\AltitudeAngelWings.csproj",
+        "projectName": "AltitudeAngelWings",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AltitudeAngelWings\\AltitudeAngelWings.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AltitudeAngelWings\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.4, )"
+            },
+            "DotNetOpenAuth.OAuth2.Client": {
+              "target": "Package",
+              "version": "[4.3.4.13329, )"
+            },
+            "Flurl": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "GeoJSON.Net": {
+              "target": "Package",
+              "version": "[1.1.64, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Runtime.InteropServices.RuntimeInformation": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Antenna\\MissionPlanner.Antenna.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Antenna\\MissionPlanner.Antenna.csproj",
+        "projectName": "MissionPlanner.Antenna",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Antenna\\MissionPlanner.Antenna.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Antenna\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Arduino\\Arduino.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Arduino\\Arduino.csproj",
+        "projectName": "Arduino",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Arduino\\Arduino.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Arduino\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\MissionPlanner.ArduPilot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\MissionPlanner.ArduPilot.csproj",
+        "projectName": "MissionPlanner.ArduPilot",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\MissionPlanner.ArduPilot.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AviFile\\AviFile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AviFile\\AviFile.csproj",
+        "projectName": "AviFile",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AviFile\\AviFile.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AviFile\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BaseClasses\\BaseClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BaseClasses\\BaseClasses.csproj",
+        "projectName": "BaseClasses",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BaseClasses\\BaseClasses.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BaseClasses\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\BouncyCastle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\BouncyCastle.csproj",
+        "projectName": "BouncyCastle",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\BouncyCastle.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj",
+        "projectName": "BSE.Windows.Forms",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj",
+        "projectName": "MissionPlanner.Comms",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.AppContext": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Security": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Controls\\MissionPlanner.Controls.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Controls\\MissionPlanner.Controls.csproj",
+        "projectName": "MissionPlanner.Controls",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Controls\\MissionPlanner.Controls.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Controls\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "SkiaSharp.Views.WindowsForms": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GDAL\\GDAL.NET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GDAL\\GDAL.NET.csproj",
+        "projectName": "GDAL.NET",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GDAL\\GDAL.NET.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "GDAL": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj",
+        "projectName": "GeoUtility",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj",
+        "projectName": "GMap.NET.Core",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj",
+        "projectName": "GMap.NET.Drawing",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj",
+        "projectName": "GMap.NET.WindowsForms",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\HIL\\MissionPlanner.HIL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\HIL\\MissionPlanner.HIL.csproj",
+        "projectName": "MissionPlanner.HIL",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\HIL\\MissionPlanner.HIL.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\HIL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\MissionPlanner.ArduPilot.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\MissionPlanner.ArduPilot.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\ICSharpCode.SharpZipLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\ICSharpCode.SharpZipLib.csproj",
+        "projectName": "SharpZipLib",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\ICSharpCode.SharpZipLib.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\KMLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\KMLib.csproj",
+        "projectName": "KMLib",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\KMLib.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\LibTessDotNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\LibTessDotNet.csproj",
+        "projectName": "LibTessDotNet",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\LibTessDotNet.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\LibVLC.NET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\LibVLC.NET.csproj",
+        "projectName": "LibVLC.NET",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\LibVLC.NET.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ManagedNativeWifi.Simple\\ManagedNativeWifi.Simple.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ManagedNativeWifi.Simple\\ManagedNativeWifi.Simple.csproj",
+        "projectName": "ManagedNativeWifi.Simple",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ManagedNativeWifi.Simple\\ManagedNativeWifi.Simple.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ManagedNativeWifi.Simple\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\MissionPlanner.Maps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\MissionPlanner.Maps.csproj",
+        "projectName": "MissionPlanner.Maps",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\MissionPlanner.Maps.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj": {
+      "version": "1.0.6",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj",
+        "projectName": "MAVLink",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\MetaDataExtractor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\MetaDataExtractor.csproj",
+        "projectName": "MetaDataExtractor",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\MetaDataExtractor.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj",
+        "projectName": "MissionPlanner.Drawing",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SixLabors.Fonts": {
+              "target": "Package",
+              "version": "[1.0.0-beta0009, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.0-beta0007, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[1.0.0-beta0007, )"
+            },
+            "SixLabors.Shapes.Text": {
+              "target": "Package",
+              "version": "[1.0.0-beta0009, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\netDxf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\netDxf.csproj",
+        "projectName": "netDxf",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\netDxf.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Font": {
+              "target": "Package",
+              "version": "[0.3.0.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\OSDConfigurator\\OSDConfigurator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\OSDConfigurator\\OSDConfigurator.csproj",
+        "projectName": "OSDConfigurator",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\OSDConfigurator\\OSDConfigurator.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\OSDConfigurator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\ProjNET.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\ProjNET.csproj",
+        "projectName": "ProjNET",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\ProjNET.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "GeoAPI.CoordinateSystems": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\px4uploader\\px4uploader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\px4uploader\\px4uploader.csproj",
+        "projectName": "px4uploader",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\px4uploader\\px4uploader.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\px4uploader\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\BouncyCastle.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\BouncyCastle.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\BouncyCastle.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BouncyCastle\\BouncyCastle.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Reflection.Emit.ILGeneration": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Reflection.Emit.Lightweight": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Reflection.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Reflection.Emit.ILGeneration": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Reflection.Emit.Lightweight": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Reflection.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpAdbClient\\SharpAdbClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpAdbClient\\SharpAdbClient.csproj",
+        "projectName": "SharpAdbClient",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpAdbClient\\SharpAdbClient.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpAdbClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Mono.Posix": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\SharpKml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\SharpKml.csproj",
+        "projectName": "SharpKml",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\SharpKml.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "DotNetZip": {
+              "target": "Package",
+              "version": "[1.13.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\solo\\solo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\solo\\solo.csproj",
+        "projectName": "solo",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\solo\\solo.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\solo\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2016.1.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Net.NameResolution": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj",
+        "projectName": "MissionPlanner.Strings",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj",
+        "projectName": "SvgNet",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\LibTessDotNet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\LibTessDotNet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\tlogThumbnailHandler\\tlogThumbnailHandler.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\tlogThumbnailHandler\\tlogThumbnailHandler.csproj",
+        "projectName": "tlogThumbnailHandler",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\tlogThumbnailHandler\\tlogThumbnailHandler.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\tlogThumbnailHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\MissionPlanner.Maps.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\MissionPlanner.Maps.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Transitions\\Transitions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Transitions\\Transitions.csproj",
+        "projectName": "Transitions",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Transitions\\Transitions.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Transitions\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\UAVCAN\\UAVCAN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\UAVCAN\\UAVCAN.csproj",
+        "projectName": "UAVCAN",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\UAVCAN\\UAVCAN.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\UAVCAN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj",
+        "projectName": "MissionPlanner.Utilities",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\alglibnet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\alglibnet.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\ICSharpCode.SharpZipLib.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\ICSharpCode.SharpZipLib.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\KMLib.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\KMLib.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\LibVLC.NET.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\LibVLC.NET.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\MetaDataExtractor.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\MetaDataExtractor.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\netDxf.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\netDxf.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\ProjNET.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\ProjNET.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\SharpKml.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\SharpKml.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\Zeroconf.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\Zeroconf.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "BitMiracle.LibTiff.NET": {
+              "target": "Package",
+              "version": "[2.4.584.1, )"
+            },
+            "DotNetZip": {
+              "target": "Package",
+              "version": "[1.13.7, )"
+            },
+            "ExifLibNet": {
+              "target": "Package",
+              "version": "[1.2.21, )"
+            },
+            "Flurl": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "MathParser.org-mXparser": {
+              "target": "Package",
+              "version": "[4.3.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.0-beta0007, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[1.0.0-beta0007, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "csmatio": {
+              "target": "Package",
+              "version": "[1.0.20, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\WebCamService\\WebCamService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\WebCamService\\WebCamService.csproj",
+        "projectName": "WebCamService",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\WebCamService\\WebCamService.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\WebCamService\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "DirectShowLib": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ZedGraph\\ZedGraph.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ZedGraph\\ZedGraph.csproj",
+        "projectName": "ZedGraph",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ZedGraph\\ZedGraph.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ZedGraph\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\Zeroconf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\Zeroconf.csproj",
+        "projectName": "Zeroconf",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\Zeroconf.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\MissionPlanner.csproj": {
+      "version": "1.3.62.1",
+      "restore": {
+        "projectUniqueName": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\MissionPlanner.csproj",
+        "projectName": "MissionPlanner",
+        "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\MissionPlanner.csproj",
+        "packagesPath": "C:\\Users\\dfso\\.nuget\\packages\\",
+        "outputPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\.nuget\\NuGet.Config",
+          "C:\\Users\\dfso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-blazor/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\alglibnet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\alglibnet\\alglibnet.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AltitudeAngelWings\\AltitudeAngelWings.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AltitudeAngelWings\\AltitudeAngelWings.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Antenna\\MissionPlanner.Antenna.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Antenna\\MissionPlanner.Antenna.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Arduino\\Arduino.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Arduino\\Arduino.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\MissionPlanner.ArduPilot.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ArduPilot\\MissionPlanner.ArduPilot.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AviFile\\AviFile.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\AviFile\\AviFile.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BaseClasses\\BaseClasses.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BaseClasses\\BaseClasses.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Comms\\MissionPlanner.Comms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Controls\\MissionPlanner.Controls.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Controls\\MissionPlanner.Controls.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Core\\Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GDAL\\GDAL.NET.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GDAL\\GDAL.NET.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GeoUtility\\GeoUtility.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.Drawing\\GMap.NET.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\HIL\\MissionPlanner.HIL.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\HIL\\MissionPlanner.HIL.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\ICSharpCode.SharpZipLib.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ICSharpCode.SharpZipLib\\ICSharpCode.SharpZipLib.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Interfaces\\Interfaces.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\KMLib.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\KMLib\\KMLib.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\LibTessDotNet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibTessDotNet\\LibTessDotNet.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\LibVLC.NET.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\LibVLC.NET\\LibVLC.NET.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ManagedNativeWifi.Simple\\ManagedNativeWifi.Simple.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ManagedNativeWifi.Simple\\ManagedNativeWifi.Simple.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\MissionPlanner.Maps.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Maps\\MissionPlanner.Maps.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Mavlink\\MAVLink.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\MetaDataExtractor.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MetaDataExtractorCSharp240d\\MetaDataExtractor.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\MissionPlanner.Drawing\\MissionPlanner.Drawing.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\netDxf.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\netDxf\\netDxf.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\OSDConfigurator\\OSDConfigurator.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\OSDConfigurator\\OSDConfigurator.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\ProjNET.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ProjNet\\ProjNET.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\px4uploader\\px4uploader.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\px4uploader\\px4uploader.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpAdbClient\\SharpAdbClient.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpAdbClient\\SharpAdbClient.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\SharpKml.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SharpKml\\SharpKml.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\solo\\solo.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\solo\\solo.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Strings\\MissionPlanner.Strings.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\SvgNet\\SvgNet.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\tlogThumbnailHandler\\tlogThumbnailHandler.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\tlogThumbnailHandler\\tlogThumbnailHandler.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Transitions\\Transitions.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Transitions\\Transitions.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\UAVCAN\\UAVCAN.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\UAVCAN\\UAVCAN.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\WebCamService\\WebCamService.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\WebCamService\\WebCamService.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ZedGraph\\ZedGraph.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\ZedGraph\\ZedGraph.csproj"
+              },
+              "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\Zeroconf.csproj": {
+                "projectPath": "Z:\\Desenvolvimento\\DRONE\\MissionPlanner-master\\ExtLibs\\Zeroconf\\Zeroconf\\Zeroconf.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "CSMatIO": {
+              "target": "Package",
+              "version": "[1.0.20, )"
+            },
+            "Crc32.NET": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "DirectShowLib": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "DotNetZip": {
+              "target": "Package",
+              "version": "[1.13.7, )"
+            },
+            "DotSpatial.Data": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Data.Forms": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Extensions": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Modeling.Forms": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Mono": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Positioning": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Projections": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Projections.Forms": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Serialization": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Symbology": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Symbology.Forms": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "DotSpatial.Topology": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Flurl": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "GDAL": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            },
+            "GeoJSON.Net": {
+              "target": "Package",
+              "version": "[1.1.64, )"
+            },
+            "GeoidHeightsDotNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[2.7.8.1, )"
+            },
+            "IronPython.StdLib": {
+              "target": "Package",
+              "version": "[2.7.8.1, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "OpenTK": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "OpenTK.GLControl": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2016.1.0, )"
+            },
+            "SharpDX": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "SkiaSharp.Views": {
+              "target": "Package",
+              "version": "[1.68.1.1, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Reactive.Core": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "System.Reactive.Linq": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Unofficial.ObjectListView": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Xamarin.Forms.Platform.WinForms": {
+              "target": "Package",
+              "version": "[3.4.0-alpha, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "zlib.net": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
